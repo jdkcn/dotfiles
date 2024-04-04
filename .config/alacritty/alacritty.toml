@@ -1,0 +1,71 @@
+import = ["~/.config/alacritty/argonaut.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+blink_interval = 750
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[font]
+size = 14
+
+[font.bold]
+family = "JetBrainsMono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+opacity = 0.8
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
