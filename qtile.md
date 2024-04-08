@@ -3,7 +3,7 @@
 ## packages
 
 ```bash
-sudo pacman -S alacritty code firefox rofi which nitrogen pulseaudio pavucontrol pamixer arandr udiskie ntfs-3g network-manager-applet volumeicon cbatticon xorg-xinit base-devel mesa git curl thunar ranger glib2 gvfs lxappearance geeqie vlc brightnessctl pacman-contrib python-psutil python-pip neofetch htop lsd bat playerctl xclip papirus-icon-theme maim ueberzug dunst libnotify calcurse figlet ttf-jetbrains-mono xdotool neovim zsh
+sudo pacman -S qtile alacritty code firefox rofi which nitrogen pulseaudio pavucontrol pamixer arandr udiskie ntfs-3g network-manager-applet volumeicon cbatticon xorg-xinit git thunar ranger gvfs lxappearance geeqie vlc brightnessctl pacman-contrib python-psutil python-pip neofetch htop btop lsd bat playerctl xclip papirus-icon-theme maim ueberzug dunst libnotify calcurse figlet ttf-jetbrains-mono xdotool neovim zsh
 ```
 
 ## yay
